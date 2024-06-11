@@ -1,8 +1,8 @@
 # test_article.py
 import pytest
-from testing.author import Author
-from testing.magazine import Magazine
-from testing.article import Article
+from lib.testing.author_test import Author
+from lib.testing.magazine_test import Magazine
+from lib.testing.article_test import Article
 
 # Test Author class
 def test_author_initialization():
